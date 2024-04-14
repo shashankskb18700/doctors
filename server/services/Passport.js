@@ -20,7 +20,7 @@ module.exports = passport.use(
     },
     (accessToken, profile, refresh, done) => {
       console.log(profile);
-      done(null, true); // yaha pe wysa ka code deko ho ge tho hum  data base se user.find kye hai ,aur mere ek aur galti serialize me user.id reutrn kar rahe tho jo available the nahi hai usko kaise return kar sakte hai
+      done(null, true);
     }
   )
 );
